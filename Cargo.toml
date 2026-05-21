@@ -2,16 +2,14 @@
 name = "rsomics-popgen-core"
 version = "0.1.1"
 description = "Population-genetics primitives: π, Watterson's θ, Tajima's D, Hardy-Weinberg exact, LD r². Layer A primitive."
-edition.workspace = true
-rust-version.workspace = true
-license.workspace = true
-repository.workspace = true
-authors.workspace = true
+edition = "2024"
+rust-version = "1.91"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/omics-rust/rsomics-world"
+authors = ["Zane Leong <efd@live.com>"]
 categories = ["science"]
 keywords = ["popgen", "bioinformatics", "hardy-weinberg", "tajima-d", "ld"]
 
 [dependencies]
-thiserror.workspace = true
+thiserror = "2"
 
-[lints]
-workspace = true
